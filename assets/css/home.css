@@ -1,0 +1,104 @@
+
+
+*{
+    color:#fff;
+    font-size: 1.3rem;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none !important;
+}
+.sidebar{
+    position: fixed;
+    width: 300px;
+    height:100%;
+    top:0;
+    left:0;
+
+    background-color: #11101d;
+}
+.menu-logo{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.img-logo{
+    width: 235px;
+    height: 170px;
+}
+.menu-nav{
+  padding-left:0;
+    overflow: hidden;
+    height:650px; 
+    width: 100%;
+   
+}
+.menu-nav:hover{
+    overflow: auto;
+}
+.title-link{
+    font-weight: 400;
+    color: #fff;
+    transition: all 0.4s ease;
+}
+.item-link{ 
+    position: relative;
+    padding: 1rem 0rem;
+}
+.item-link:hover{
+    background: #1d1b31;
+}
+.icon-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0rem 1rem;
+}
+.icon{
+    padding-right:1.2rem;
+}
+.item-thugon{
+    padding: 1rem;
+}
+.showsubmenu{
+    display: block;
+}
+/* i.icon-check-down{
+    transform: rotate(-180deg);
+}
+ .item-link i.icon-check-down{
+    display: none;
+}
+.item-link.showmenu .sub-menu{
+    display: block;
+} */
+
+/* menu-sub */
+.sub-menu{
+    margin-top: 10px;
+    background: #1d1b31;
+    padding-left:4rem;
+    display: none;
+   
+}
+.item-link.showmenu .sub-menu{
+    display: block;
+}
+.sub-link{
+    font-size: 1rem;
+    color: #fff;
+    line-height: 2rem;
+}
+.icon-check-up{
+    display: none;
+}
+.sidebar .menu-nav li .sub-menu a{
+    color: #fff;
+    font-size: 15px;
+    padding: 5px 0;
+    white-space: nowrap;
+    opacity: 0.6;
+    transition: all 0.3s ease;
+  }
